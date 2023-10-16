@@ -1,5 +1,5 @@
 # NLP
-The following code is developed to acclearte NLP workloads with Intel AI toolkit, the aim of the repo is to enable developer to learn NLP and alos experience the Intel oneAPI AI acceleration Libraries 
+The following code is developed to acclearte NLP workloads with Intel AI toolkit, the aim of the repo is to enable developer to learn NLP and also experience the Intel oneAPI AI acceleration Libraries 
 
 # Guide to replicate the results 
 
@@ -13,6 +13,11 @@ https://docs.anaconda.com/free/anaconda/install/
   - Mac Os users: https://docs.anaconda.com/free/anaconda/install/mac-os/      
 
 Once you installed the anaconda in you local environment follows the following commands:      
-*conda create -n env python=3.10 scikit-learn-intelex pandas
-
+*conda create -n env python=3.10 scikit-learn-intelex pandas seaborn
+*conda install -c conda-forge spacy
 The above command will create conda virtual enviroemnt and then install scikit-learn in a new enviroments will all the dependancies need to run the codes.
+
+Run Instruction
+1) unzip the all-narendra-modi-tweets.zip file after cloning the repo 
+2) open the MODI Spacy & Sentiment Analysis.ipynb notebook to run the file
+ 
