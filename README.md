@@ -13,8 +13,8 @@ https://docs.anaconda.com/free/anaconda/install/
   - Mac Os users: https://docs.anaconda.com/free/anaconda/install/mac-os/      
 
 Once you installed the anaconda in you local environment follows the following commands:              
-**conda create -n env python=3.10 scikit-learn-intelex pandas seaborn     
-**conda install -c conda-forge spacy       
+**conda create -n env python=3.10 scikit-learn-intelex pandas seaborn**     
+**conda install -c conda-forge spacy**       
 The above command will create conda virtual enviroemnt and then install scikit-learn in a new enviroments will all the dependancies need to run the codes.
 
 Run Instruction
